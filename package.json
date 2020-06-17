@@ -1,0 +1,43 @@
+{
+  "name": "package-template",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/etienne-dldc/package-template#readme",
+  "bugs": {
+    "url": "https://github.com/etienne-dldc/package-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/etienne-dldc/package-template.git"
+  },
+  "license": "MIT",
+  "author": "Etienne Dldc <e.deladonchamps@gmail.com>",
+  "main": "index.js",
+  "module": "dist/package-template.esm.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "codecov": "codecov",
+    "pub": "yarn build && np",
+    "start": "tsdx watch",
+    "test": "tsdx test --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "codecov": "^3.6.5",
+    "core-js": "3.6.5",
+    "np": "^6.2.3",
+    "tsdx": "^0.13.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.2"
+  }
+}
