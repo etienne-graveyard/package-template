@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "author": "Etienne Dldc <e.deladonchamps@gmail.com>",
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "dist/package-template.esm.js",
   "typings": "dist/index.d.ts",
   "directories": {
